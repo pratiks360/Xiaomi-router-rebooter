@@ -3,7 +3,7 @@
 
 Author: Pratik Shukla
 Email: pratiks@pratiks.net
-desc: A simple script to reboot Xiaomi routers.
+desc: A simple script to reboot Xiaomi routers
 
 
 */
@@ -18,6 +18,7 @@ var CryptoJS = require("crypto-js");
 var password = "<YOUR_SSID_PASSWORD_HERE>"
 var router_URL = '<YOUR_ROUTER_IP>'
 var key = '<YOUR_ROUTER_PRIVATE_KEY>'
+var deviceId = '<YOUR_DEVICE_ID>'
 
 var Encrypt = {
     key: key,
@@ -29,7 +30,7 @@ var Encrypt = {
     },
     nonceCreat: function() {
         var type = 0;
-        var deviceId = 'e8:d0:fc:d5:5d:7d';
+        var deviceId = deviceId;
         var time = Math.floor(new Date().getTime() / 1000);
         var random = Math.floor(Math.random() * 10000);
         return [type, deviceId, time, random].join('_');
