@@ -30,7 +30,6 @@ var Encrypt = {
     },
     nonceCreat: function() {
         var type = 0;
-        var deviceId = deviceId;
         var time = Math.floor(new Date().getTime() / 1000);
         var random = Math.floor(Math.random() * 10000);
         return [type, deviceId, time, random].join('_');
@@ -80,7 +79,7 @@ let AuthUser = function() {
 let userToken = AuthUser()
 userToken.then(a => {
     var ttt = JSON.parse(a).token
-        //console.log("Received token :: " + ttt)
+        
     console.log("rebooting Router now")
     let form = {
         "client": "web"
