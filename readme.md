@@ -30,6 +30,7 @@ values to change
 * var password = "<YOUR_SSID_PASSWORD_HERE>" 
 * var router_URL = '<YOUR_ROUTER_IP>'  eg. http://192.168.1.1
 * var key = '<YOUR_ROUTER_PRIVATE_KEY>'  you can get this key by viewing the page source of your router homepage. it should be something like this key: 'a2ffa5c9be07488bbb04a3a47d3c5f6a'
+* var deviceId = '<YOUR_DEVICE_ID>' you can get this key by viewing the page source of your router homepage. it should be something like this deviceId ='e8:d0:fc:d5:5d:7d'
 
 *configure this script in your directly in your crontab or scheduler
 
