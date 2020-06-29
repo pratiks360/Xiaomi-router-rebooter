@@ -31,6 +31,8 @@ values to change
 * var router_URL = '<YOUR_ROUTER_IP>'  eg. http://192.168.1.1
 * var key = '<YOUR_ROUTER_PRIVATE_KEY>'  you can get this key by viewing the page source of your router homepage. it should be something like this key: 'a2ffa5c9be07488bbb04a3a47d3c5f6a'
 
+*configure this script in your directly in your crontab or scheduler
+
 ```sh
 #Ensure if java is installed
 $ npm -v
@@ -49,7 +51,7 @@ $ node router.py
 License
 ----
 
-
+Apache Foundation
 
 **Free Software, Hell Yeah!**
 
