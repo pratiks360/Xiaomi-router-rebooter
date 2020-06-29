@@ -6,9 +6,9 @@
 
 
 ### About
-In the recent router firmware MI removed the functionality to restart your router at a schedule day-time.
+In the recent router firmware update, MI removed the functionality to restart your router at a schedule day-time.
 This feature was quite useful for dynamic IP users for achieving network privacy.
-Moreover, releasing of stalled network services hosted by your network devices like chromecast, Nas-drives, your refrigerator :P
+Moreover, releasing of stalled network services hosted by your network devices like chromecast, Nas-drives,Raspberry-Pi your refrigerator :P
 
 
 
@@ -28,8 +28,8 @@ This Project requires Nodejs execute and some libs to run.
 just change the router details in router.js file for this programs to run
 values to change
 * var password = "<YOUR_SSID_PASSWORD_HERE>" 
-* var router_URL = '<YOUR_ROUTER_IP>' // eg. http://192.168.1.1
-* var key = '<YOUR_ROUTER_PRIVATE_KEY>' // you can get this key by viewing the page source of your router homepage. it should be something like this key: 'a2ffa5c9be07488bbb04a3a47d3c5f6a'
+* var router_URL = '<YOUR_ROUTER_IP>'  eg. http://192.168.1.1
+* var key = '<YOUR_ROUTER_PRIVATE_KEY>'  you can get this key by viewing the page source of your router homepage. it should be something like this key: 'a2ffa5c9be07488bbb04a3a47d3c5f6a'
 
 ```sh
 #Ensure if java is installed
@@ -48,6 +48,7 @@ $ node router.py
 
 License
 ----
+
 
 
 **Free Software, Hell Yeah!**
