@@ -39,6 +39,7 @@ values to change
 $ npm -v
 $ npm i g crypto-js
 $ npm i g request
+$ npm i g request-promise-native
 $ npm i g querystring
 $ node router.py
 ```
